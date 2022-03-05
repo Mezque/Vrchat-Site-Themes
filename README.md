@@ -4,8 +4,5 @@
 <h3 align="center"> Installation Instructions. </h3>
 <br />
 
- - Download an extension for broser that supports UserStyles, I use Stylus for chrome.
+ - Download an extension for the browser that supports UserStyles, I use Stylus for chrome.
  - Go to the provided links to install or copy the theme from github.
-
-    https://userstyles.world/style/3421/nord-blue-for-vrchat-com
-

@@ -1,229 +1,254 @@
 @-moz-document domain("vrchat.com") {
-    :root {
-        --info: "Nord-Blue for VRchat.com v1.0 by Mezque <3";
-        --bg: #2E3440;
-        --bg2: #3B4252;
-        --bg2t: #3b4252a6;
-        --mainc: #5E81AC;
-        --mainc2: #4c6079;
-        --text: #D8DEE9;
-        --disabled: #BF616A;
-        --blue: #5E81AC;
-        --green: #A3BE8C;
-        --yellow: #EBCB8B;
-        --orange: #D08770;
-        --level-trusted: #B48EAD;
-        --level-known: #D08770;
-        --level-user: #A3BE8C;
-        --level-new: #5E81AC;
-        --level-visitor: #D8DEE9;
-        --friend: #EBCB8B;
-        --developer: #BF616A;
-        --moderator: #BF616A;
-        --status-online: #A3BE8C;
-        --status-joinme: #5E81AC;
-        --status-busy: #BF616A;
-        --status-askme:#D08770;
-        --status-offline: #D8DEE9;
-        --primary: #5E81AC;
-        --mainc-rgb: 94, 129, 172, 1;
-        --background-RGB: 0, 0, 0, 1;
-    }
-    
-    body#home {
-        background-color: var(--bg);
+:root {
+    --info: "Nord-Blue for VRchat.com v1.0 by Mezque <3";
+    --bg: #2E3440;
+    --bg2: #3B4252;
+    --bg2t: #3b4252a6;
+    --mainc: #5E81AC;
+    --mainc2: #4c6079;
+    --text: #D8DEE9;
+    --disabled: #BF616A;
+    --blue: #5E81AC;
+    --green: #A3BE8C;
+    --yellow: #EBCB8B;
+    --orange: #D08770;
+    --level-trusted: #B48EAD;
+    --level-known: #D08770;
+    --level-user: #A3BE8C;
+    --level-new: #5E81AC;
+    --level-visitor: #D8DEE9;
+    --friend: #EBCB8B;
+    --developer: #BF616A;
+    --moderator: #BF616A;
+    --status-online: #A3BE8C;
+    --status-joinme: #5E81AC;
+    --status-busy: #BF616A;
+    --status-askme:#D08770;
+    --status-offline: #D8DEE9;
+    --primary: #5E81AC;
+    --mainc-rgb: 94, 129, 172, 1;
+    --background-RGB: 0, 0, 0, 1;
+}
+
+body#home {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.css-eyun46 .leftbar {
+    /*Left bar*/
+    background: var(--bg2);
+}
+.card{
+    background-color: var(--bg2)
+}
+.alert-warning{
+    color: var(--bg);
+    background: var(--disabled);
+    border: 2px var(--disabled);
+}
+.btn-primary{
+    color: var(--bg);
+    background: var(--mainc);
+    border-color: var(--mainc);
+}
+.btn-secondary{
+    color: var(--text);
+    background: var(--bg);
+    border-color: var(--mainc);
+}
+.btn-secondary:hover{
+    color: var(--text);
+    background: var(--mainc);
+    border-color: var(--mainc);
+}
+.css-1f0dzov .navbar-btn:hover{
+    background: var(--bg2) !important;
+}
+.css-eyun46 .friends-button:hover{
+    background: var(--bg2) !important;
+}
+.badge-secondary{
+    color: var(--text);
+    background-color: var(--bg2);
+}
+a:hover{
+    color: var(--mainc);
+}
+.css-1o3w9m7 .search-container.private{
+    border: 1px solid var(--disabled);
+}
+.css-kp3m62{
+    background: var(--bg) /* box above noti*/
+}
+.css-1nyl2gd{ /*background*/
+    background: var(--bg);
+    border: 2px solid var(--mainc);
+}
+.css-1c98ue0, .css-1f0dzov .custom-dropdown{
+    /*Notification pop down top*/
+    border-bottom: 2px solid var(--mainc) !important;
+}
+.css-pe3dyn{
+        /*Notification pop down bottom*/
+    border-top: 2px solid var(--mainc) !important;
+}
+.css-2nen93{/*Notification pop down background */
+    background: var(--bg2)
+}
+.css-eyun46 .friends-button{
+    background: var(--bg);
+    border: 3px solid var(--mainc);
+}
+.css-1f0dzov .custom-dropdown{/*Notification pop down background */
+    background: var(--bg)!important;
+}
+.text-white{
+    color: var(--text)!important;
+}
+.css-1f0dzov .navbar {
+    /*Top Bar*/
+    border-bottom: 3px solid var(--bg2);
+    background-color: var(--bg) !important;
+}
+.css-eyun46 .rightbar {
+    background: var(--bg2)
+}
+.css-1dt3z6y {
+    display: none
+}
+.css-1f0dzov .right-nav a h4 {
+    display: none
+}
+.css-1f0dzov .navbar-btn.logout{ /*Logout button*/
+    color: var(--disabled);
+}
+.css-1f0dzov .navbar-btn{
+    /*buttons*/
+    background: var(--bg) !important;
+    border: 2px solid var(--mainc) !important;
+}
+
+.css-1p96q4l .location-card {
+    /* Friended Users Location Cards */
+    background: var(--bg2t);
+}
+.css-n1nosh .card {
+    /* Friended Users Location Cards User Backgrounds*/
+    background: var(--bg2t)
+}
+.css-1tnesjs {
+    border: 2px solid var(--mainc);
+    background-color: var(--bg);
+}
+a {
+    color: var(--text)
+}
+
+.css-ns427k .nav-button {
+    background: var(--bg);
+    border: 2px solid var(--mainc);
+}
+
+.css-ns427k .nav-button {
+    color: var(--text);
+}
+.css-9jikcf {
+    color: var(--mainc);
+    background-color: var(--bg);
+}
+.css-ns427k .nav-button:hover {
+    background: var(--mainc);
+    border: var(--bg);
+}
+.btn-outline-danger{/*red button outline*/
+    color: var(--disabled);
+    border-color: var(--disabled)
+}
+.btn-outline-light{/*normal button outline*/
         color: var(--text);
-    }
+    border-color: var(--text);
+}
+.css-1efq825 .search-container{ /*WORLDS below user public*/
+    border: 1px solid var(--mainc);
+}
+.css-1efq825 .search-container.private{/*WORLDS below user private*/
+    border: 1px solid var(--text);
+}
+.css-1efq825 .search-container.system_labs{/*WORLDS below user labs*/
+    border: 1px solid var(--yellow);
+}
+.css-blnaib, .css-i6d2br, .css-15w5xwv, .css-ftfv9,.css-16ku1sz{
+    /*right sdie friend backgrounds trusted*/
+    background-color: var(--bg2);
+}
+.css-1f2jlj5,.css-k747bd,.css-s2m87g{
+    /*right sdie friend backgrounds offline*/
+    background-color: var(--bg);
+}
+.css-1o3w9m7 .search-container{
+    border: 1px solid var(--mainc);
+}
+.css-5uj77p .leftbar, .css-5uj77p .rightbar{ /*Left side wing*/
+    background: var(--bg2)
+}
+}
+
+@-moz-document url-prefix("https://vrchat.com/home/worlds") {
+.css-4r69nx .world{
+    border: 3px solid var(--mainc);
     
-    .css-eyun46 .leftbar {
-        /*Left bar*/
-        background: var(--bg2);
-    }
-    .card{
-        background-color: var(--bg2)
-    }
-    .alert-warning{
-        color: var(--bg);
-        background: var(--disabled);
-        border: 2px var(--disabled);
-    }
-    .btn-primary{
-        color: var(--bg);
-        background: var(--mainc);
-        border-color: var(--mainc);
-    }
-    .btn-secondary{
-        color: var(--text);
-        background: var(--bg);
-        border-color: var(--mainc);
-    }
-    .btn-secondary:hover{
-        color: var(--text);
-        background: var(--mainc);
-        border-color: var(--mainc);
-    }
-    .css-1f0dzov .navbar-btn:hover{
-        background: var(--bg2) !important;
-    }
-    .css-eyun46 .friends-button:hover{
-        background: var(--bg2) !important;
-    }
-    .badge-secondary{
-        color: var(--text);
-        background-color: var(--bg2);
-    }
-    a:hover{
-        color: var(--mainc);
-    }
-    .css-1o3w9m7 .search-container.private{
-        border: 1px solid var(--disabled);
-    }
-    .css-kp3m62{
-        background: var(--bg) /* box above noti*/
-    }
-    .css-1nyl2gd{ /*background*/
-        background: var(--bg);
-        border: 2px solid var(--mainc);
-    }
-    .css-1c98ue0, .css-1f0dzov .custom-dropdown{
-        /*Notification pop down top*/
-        border-bottom: 2px solid var(--mainc) !important;
-    }
-    .css-pe3dyn{
-            /*Notification pop down bottom*/
-        border-top: 2px solid var(--mainc) !important;
-    }
-    .css-2nen93{/*Notification pop down background */
-        background: var(--bg2)
-    }
-    .css-eyun46 .friends-button{
-        background: var(--bg);
-        border: 3px solid var(--mainc);
-    }
-    .css-1f0dzov .custom-dropdown{/*Notification pop down background */
-        background: var(--bg)!important;
-    }
-    .text-white{
-        color: var(--text)!important;
-    }
-    .css-1f0dzov .navbar {
-        /*Top Bar*/
-        border-bottom: 3px solid var(--bg2);
-        background-color: var(--bg) !important;
-    }
-    .css-eyun46 .rightbar {
-        background: var(--bg2)
-    }
-    .css-1dt3z6y {
-        display: none
-    }
-    .css-1f0dzov .right-nav a h4 {
-        display: none
-    }
-    .css-1f0dzov .navbar-btn.logout{ /*Logout button*/
-        color: var(--disabled);
-    }
-    .css-1f0dzov .navbar-btn{
-        /*buttons*/
-        background: var(--bg) !important;
-        border: 2px solid var(--mainc) !important;
-    }
+}
+.css-4r69nx .world-row{
+    background-color: var(--bg2t);
+}
+
+.css-4r69nx .world-nav{
+    background-color: var(--bg);
+}
+.css-4r69nx .world-nav-arrow{
+    background-color: var(--mainc);
     
-    .css-1p96q4l .location-card {
-        /* Friended Users Location Cards */
-        background: var(--bg2t);
-    }
-    .css-n1nosh .card {
-        /* Friended Users Location Cards User Backgrounds*/
-        background: var(--bg2t)
-    }
-    .css-1tnesjs {
-        border: 2px solid var(--mainc);
-        background-color: var(--bg);
-    }
-    a {
-        color: var(--text)
-    }
-    
-    .css-ns427k .nav-button {
-        background: var(--bg);
-        border: 2px solid var(--mainc);
-    }
-    
-    .css-ns427k .nav-button {
-        color: var(--text);
-    }
-    .css-9jikcf {
-        color: var(--mainc);
-        background-color: var(--bg);
-    }
-    .css-ns427k .nav-button:hover {
-        background: var(--mainc);
-        border: var(--bg);
-    }
-    .btn-outline-danger{/*red button outline*/
-        color: var(--disabled);
-        border-color: var(--disabled)
-    }
-    .btn-outline-light{/*normal button outline*/
-            color: var(--text);
-        border-color: var(--text);
-    }
-    .css-1efq825 .search-container{ /*WORLDS below user public*/
-        border: 1px solid var(--mainc);
-    }
-    .css-1efq825 .search-container.private{/*WORLDS below user private*/
-        border: 1px solid var(--text);
-    }
-    .css-1efq825 .search-container.system_labs{/*WORLDS below user labs*/
-        border: 1px solid var(--yellow);
-    }
-    .css-blnaib, .css-i6d2br, .css-15w5xwv, .css-ftfv9,.css-16ku1sz{
-        /*right sdie friend backgrounds trusted*/
-        background-color: var(--bg2);
-    }
-    .css-1f2jlj5,.css-k747bd,.css-s2m87g{
-        /*right sdie friend backgrounds offline*/
-        background-color: var(--bg);
-    }
-    .css-1o3w9m7 .search-container{
-        border: 1px solid var(--mainc);
-    }
-    
-    }
-    
-    @-moz-document url-prefix("https://vrchat.com/home/worlds") {
-    .css-4r69nx .world{
-        border: 3px solid var(--mainc);
-        
-    }
-    .css-4r69nx .world-row{
-        background-color: var(--bg2t);
-    }
-    
-    .css-4r69nx .world-nav{
-        background-color: var(--bg);
-    }
-    .css-4r69nx .world-nav-arrow{
-        background-color: var(--mainc);
-        
-    }
-    .css-4r69nx .info-overlay{
-        background: var(--bg2t)
-    }
-    .css-4r69nx .world-nav:not(.nav-disabled):hover .world-nav-arrow{
-        background-color: var(--mainc2);
-    }
-    }
-    
-    @-moz-document url-prefix("https://hello.vrchat.com") {
-    [data-header-style="theme"].header, [data-header-style="dynamic"].header{
-        background-color: var(--bg2);
-    }
-    body:not(.header--menu-open) .header-nav-wrapper a{
-        color: var(--text);
-    }
-    body:not(.header--menu-open) .header-actions .icon--fill svg {
-        fill: var(--text);
-    }
-    }
+}
+.css-4r69nx .info-overlay{
+    background: var(--bg2t)
+}
+.css-4r69nx .world-nav:not(.nav-disabled):hover .world-nav-arrow{
+    background-color: var(--mainc2);
+}
+}
+
+@-moz-document url-prefix("https://hello.vrchat.com") {
+[data-header-style="theme"].header, [data-header-style="dynamic"].header{
+    background-color: var(--bg2);
+}
+body:not(.header--menu-open) .header-nav-wrapper a{
+    color: var(--text);
+}
+body:not(.header--menu-open) .header-actions .icon--fill svg {
+    fill: var(--text);
+}
+}
+
+@-moz-document url-prefix("https://vrchat.com/home/login") {
+.css-8ypqc1
+{
+    border: 2px solid var(--mainc);
+    background: var(--mainc);
+    color: var(--text);
+}
+.css-1527lp9
+{
+    border-left: 3px solid var(--mainc);
+}
+.css-1527lp9
+{
+    background-color: var(--bg2);
+    color: var(--text);
+}
+.css-1neeqzk
+{
+    background-color: var(--mainc);
+    color: var(--text);
+}
+}

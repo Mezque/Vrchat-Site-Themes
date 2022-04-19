@@ -1,6 +1,6 @@
 @-moz-document domain("vrchat.com") {
 :root {
-    --info: "Nord-Blue for VRchat.com v1.0 by Mezque <3";
+    --info: "Nord-Blue for VRchat.com v1.5 by Mezque <3";
     --bg: #2E3440;
     --bg2: #3B4252;
     --bg2t: #3b4252a6;
@@ -251,4 +251,44 @@ body:not(.header--menu-open) .header-actions .icon--fill svg {
     background-color: var(--mainc);
     color: var(--text);
 }
+}
+
+@-moz-document domain("docs.vrchat.com") {
+.App .rm-Guides, .App .rm-ReferenceMain, .App .rm-Changelog, .content-toc a, .reference-redesign .Sidebar-headingTRQyOa2pk0gh, .reference-redesign .Sidebar-link2Dsha-r-GKh2,.rm-Guides a.suggestEdits, .rm-SearchToggle-placeholder, .rm-SearchToggle-shortcut,.ThemeContext_dark .rm-Header-top-link, .ThemeContext_dark .rm-Header-bottom-link, .App .rm-Guides, .App .rm-ReferenceMain, .App .rm-Changelog, .content-toc a, .reference-redesign .Sidebar-headingTRQyOa2pk0gh, .reference-redesign .Sidebar-link2Dsha-r-GKh2, .rm-Guides a.suggestEdits, .rm-SearchToggle-placeholder, .rm-SearchToggle-shortcut, .ThemeContext_dark .rm-Header-top-link, .ThemeContext_dark .rm-Header-bottom-link , span.NavItem-item-flex1PeV7BPmJCwt , span.NavItem-textSlZuuL489uiw{
+    color: var(--text);
+}
+div.NavItem-item-codename3h0L0juWYirr{
+    color: var(--mainc)
+}
+.rm-SearchToggle{
+    background: var(--bg)
+}
+div.Box2uBHSWG8DzPz.Box_pop1YKwQaFwZu8z.Menu.Menu_light{
+    background: var(--bg2);
+}
+.content-toc .toc-list>li:not(.toc-children) :first-child{
+    background: var(--bg)
+}
+.content-toc .tocHeader .icon , .content-toc .tocHeader , .rm-Guides #content-head .col-xs-3 .icon{
+    color: var(--mainc)
+}
+a{
+    color: var(--mainc);
+}
+.App{
+    background-color: var(--bg);
+}
+a.Sidebar-link2Dsha-r-GKh2.childless.text-wrap.rm-Sidebar-link, .reference-redesign .Sidebar-link2Dsha-r-GKh2:hover, .reference-redesign .Sidebar-link2Dsha-r-GKh2:focus{ /*sidebar text hover*/
+    background: var(--bg)
+}
+.reference-redesign .Sidebar-link2Dsha-r-GKh2:active, .reference-redesign .Sidebar-link2Dsha-r-GKh2.active{
+    color:  var(--mainc);
+}
+.App .rm-Guides a:hover, .App .rm-Guides a:active, .App .rm-Guides a:focus, .App .rm-ReferenceMain a:hover, .App .rm-ReferenceMain a:active, .App .rm-ReferenceMain a:focus, .App .rm-Changelog a:hover, .App .rm-Changelog a:active, .App .rm-Changelog a:focus{
+    color:  var(--mainc);
+}
+.callout.callout_info{
+    --background: var(--bg);
+    --border: var(--mainc);
+} 
 }
